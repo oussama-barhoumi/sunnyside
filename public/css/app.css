@@ -79,7 +79,7 @@ header h1{
     align-items: flex-start;
     gap: 20px;
     width: 80%;
-  
+
 }
 
 .two-col.reverse {
@@ -116,7 +116,11 @@ header h1{
 }
 .learn:hover {
     color: #000000;
-    border-bottom: 3px solid #f6ff00;
+    border-bottom: 5px solid #f6ff00;
+}
+.learns:hover {
+    color: #000000;
+    border-bottom: 5px solid #ff6b5f;
 }
 
 .img-box img {
@@ -141,8 +145,7 @@ header h1{
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
-   
-   
+    color: #4b7b72;
 }
 .two-col.bottom .img-box2 {
     background: url("../Image/desktop/image-photography.jpg");
@@ -152,23 +155,25 @@ header h1{
     text-align: center;
     padding-top: 350px;
     padding-bottom: 150px;
-     width: 100%;
+    width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
-   
-  
+    color: #448eb1;
 }
-   
+
 .two-col.bottom h4 {
     margin-top: 20px;
     font-size: 20px;
 }
+.text-box h3{
+    color: #000000;
+    font-size: 3vw;
+    width: 60%;
+}
 
-
-
-
-
-
+.text-box p{
+    color: #969594;
+}
 
 
 
