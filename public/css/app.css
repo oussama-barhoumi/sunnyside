@@ -173,6 +173,36 @@ header h1{
     height: 100%;
     object-fit: cover;
 }
+footer {
+    background: #90d4c5;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.foot-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 20px 0;
+}
+
+.foot-links a {
+    color: #2f5d5b;
+    text-decoration: none;
+}
+.foot-links a:hover {
+    text-decoration: underline;
+    color: #f6ff00;
+
+}
+
+    .socials img {
+        width: 20px;
+        margin: 10px;
+    }
+.socials img:hover {
+    filter: brightness(0.2);}
 
 
 
